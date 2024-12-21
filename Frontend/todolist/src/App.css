@@ -1,0 +1,88 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0px 8px black;
+  max-width: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: dodgerblue;
+}
+.d1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.d1 input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+.d1 input:focus {
+  border-color: dodgerblue;
+  box-shadow: 0px 0px 5px dodgerblue;
+}
+.d1 button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  list-style: none;
+  margin-right: 40px;
+}
+li {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0px 2px grey;
+}
+li input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+li button {
+  background-color: red;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+li.completed {
+  text-decoration: line-through;
+  color: #999;
+}
